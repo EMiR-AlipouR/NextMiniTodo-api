@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📝 Mini TodoList API
 
-## Getting Started
+A small full-stack TodoList project built with Next.js to practice API Routes, CRUD operations, dynamic routes, and server-side concepts.
 
-First, run the development server:
+🚀 Features
 
-```bash
+* Create, read, update, and delete todos
+* REST API with HTTP methods
+* Dynamic API Routes
+* Catch-all & Optional Catch-all Routes
+* Server-side data handling
+* Static & Dynamic rendering concepts
+* Responsive TodoList UI
+
+🛠️ Tech Stack
+
+* Next.js
+* React
+* JavaScript
+* Tailwind CSS
+
+🔌 API Routes
+
+Method	Endpoint	Description
+GET	/api/todos	Get all todos
+POST	/api/todos	Create a new todo
+PUT	/api/todos	Replace all todos
+DELETE	/api/todos	Delete all todos
+GET	/api/todos/:id	Get a specific todo
+PATCH	/api/todos/:id	Update a specific todo
+GET	/api/[[...params]]	Optional catch-all route
+
+📦 Getting Started
+
+Clone the repository:
+
+git clone https://github.com/EMiR-AlipouR/NextMiniTodo-api.git
+
+Go to the project directory:
+
+cd NextMiniTodo-api
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🏗️ Production Build
 
-## Learn More
+Create a production build:
 
-To learn more about Next.js, take a look at the following resources:
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm start
 
-## Deploy on Vercel
+📚 What I Learned
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project was created as a learning project while studying Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Through this project, I practiced:
+
+* Next.js API Routes
+* HTTP methods: GET, POST, PUT, PATCH, DELETE
+* Dynamic Routes
+* Catch-all Routes
+* Optional Catch-all Routes
+* Server Components
+* Server-side data fetching
+* CRUD architecture
+* Git & GitHub workflow
+
+📌 Project Status
+
+This is a learning project built to practice Next.js and full-stack concepts.
+
+⸻
+
+Made with ☕ by EMiR
