@@ -1,9 +1,9 @@
-import React from 'react'
 
-function route() {
-  return (
-    <div>route</div>
-  )
+export async function GET() {
+  return Response.json({
+    id:"1",
+    name:"EMiR",
+    message: "Hi FullStack",
+  });
 }
 
-export default route
